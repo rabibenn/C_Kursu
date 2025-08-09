@@ -9,6 +9,10 @@
 //C dilinde sayısal işlemler, rastgele sayı üretme, hafıza yönetimi, programı sonlandırma gibi işlevleri yapmak için kullanılır.
 
 
+//return 0; ne işe yarar?
+//main fonksiyonu başarıyla tamamlandığında işletim sistemine hata yok mesajı verir.
+//Neden 1 veya başka sayılar değil de 0?
+//Çünkü C ve bir çok programlama dilinde 0 dışındaki sayılar hata anlamına gelir.
 
 int main()
 {
