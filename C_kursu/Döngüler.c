@@ -169,7 +169,7 @@ int main()
 	  //while(0) koşulun yanlış olduğunu gösterir bu yüzden while içerisine girilmez.
 	  //while(1) koşulun doğru olduğunu gösterir bu yüzden while içinden çıkılamaz ve sonsuz döngü olur.
 
-	*/
+	
 
 
 
@@ -181,9 +181,62 @@ int main()
 
 	//Kullanıcıdan koşula bakmadan değer alınmak istediğinde kullanılır. 
 
+       
 
 
+	int i = 12;
+
+	do{
+		printf("%d \n", i);
+		i++;
+	}while(i<10);
+
+
+
+	//Break ve Continue Kullanımı
+	//break -> belirlenen koşul sağlandığında döngüyü tamamen sonlandırmak için kullanılır.
+	//continue -> belirlenen koşulun sağlandığı turu atlamak için kullanılır.
+
+
+	//break
+
+	int i;
+
+	for(i = 0; i < 10; i++){
+		printf("%d \n", i);
+		if(i == 4){
+			break;
+		}
+	}
+
+
+	//continue
 	
+	int i;
+	
+	for(i = 0; i < 10; i++){
+		if(i == 5){
+			continue;
+		}
+		printf("%d \n", i);
+	}
+
+	*/
+
+	//Örnek
+	
+	int sayi;
+
+	for(sayi = 0; sayi < 10; sayi++){
+		if(sayi == 5){
+			continue;
+		}
+		if(sayi == 8){
+			break;
+		}
+
+		printf("%d \n", sayi);
+	}
 
 	return 0;
 }
